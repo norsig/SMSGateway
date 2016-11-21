@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) Bruno Sarverry
+  ~
+  ~ This file is licensed for Bruno Sarverry under GPL3 licence
+  ~
+  -->
+
 <resources>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>

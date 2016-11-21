@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) Bruno Sarverry
+  ~
+  ~ This file is licensed for Bruno Sarverry under GPL3 licence
+  ~
+  -->
+
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.bruino.smsgateway">
+    package="com.keniobyte.bruino.smsgateway">
 
     <uses-permission android:name="android.permission.SEND_SMS"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -12,7 +19,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
+        <activity android:name="com.keniobyte.bruino.smsgateway.MainActivity"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

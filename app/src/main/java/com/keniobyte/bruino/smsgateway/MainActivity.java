@@ -1,4 +1,11 @@
-package com.example.bruino.smsgateway;
+/*
+ * Copyright (c) Bruno Sarverry
+ *
+ * This file is licensed for Bruno Sarverry under GPL3 licence
+ *
+ */
+
+package com.keniobyte.bruino.smsgateway;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -18,7 +25,8 @@ import java.io.IOException;
 public class MainActivity extends AppCompatActivity {
     private final String TAG = getClass().getSimpleName();
 
-    //Connects to a websocket on Report Police web backend and listens for sms notifications: https://github.com/Keniobyte/PoliceReportsWeb
+    //Connects to a websocket on Report Police web backend and listens for sms notifications:
+    // https://github.com/Keniobyte/PoliceReportsWeb
     private final static String URL_LISTENER = "ws://192.168.15.103:8888/realtime/sms_websocket";
 
     @Override
@@ -26,8 +34,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // JSON format example
-        String t = "{\"phone_number\":\"+549123456789\",\"verification_code\":\"ASD123\",\"message\":\"test message\"}";
+        // JSON format keniobyte
+        String t = "{\"phone_number\":\"+549123456789\"" +
+                ",\"verification_code\":\"ASD123\"" +
+                ",\"message\":\"test message\"}";
 
         try {
             JSONObject j = new JSONObject(t);

@@ -1,4 +1,11 @@
-package com.example.bruino.smsgateway;
+/*
+ * Copyright (c) Bruno Sarverry
+ *
+ * This file is licensed for Bruno Sarverry under GPL3 licence
+ *
+ */
+
+package com.keniobyte.bruino.smsgateway;
 
 import org.junit.Test;
 

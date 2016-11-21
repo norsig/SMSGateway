@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) Bruno Sarverry
+  ~
+  ~ This file is licensed for Bruno Sarverry under GPL3 licence
+  ~
+  -->
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,5 +14,5 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.bruino.smsgateway.MainActivity">
+    tools:context="com.keniobyte.bruino.smsgateway.MainActivity">
 </RelativeLayout>

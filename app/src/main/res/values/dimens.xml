@@ -1,3 +1,10 @@
+<!--
+  ~ Copyright (c) Bruno Sarverry
+  ~
+  ~ This file is licensed for Bruno Sarverry under GPL3 licence
+  ~
+  -->
+
 <resources>
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
