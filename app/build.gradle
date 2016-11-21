@@ -23,7 +23,6 @@ android {
 
     defaultConfig {
         applicationId "com.keniobyte.bruino.smsgateway"
-        minSdkVersion 15
         targetSdkVersion 21
         versionCode 1
         versionName "1.0"
@@ -42,5 +41,4 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.1.1'
     compile 'com.neovisionaries:nv-websocket-client:1.29'
-    compile 'com.birbit:android-priority-jobqueue:2.0.0-beta3'
 }

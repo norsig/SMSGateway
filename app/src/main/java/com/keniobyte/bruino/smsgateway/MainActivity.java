@@ -34,17 +34,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // JSON format keniobyte
+        /* JSON format keniobyte
         String t = "{\"phone_number\":\"+549123456789\"" +
                 ",\"verification_code\":\"ASD123\"" +
                 ",\"message\":\"test message\"}";
-
-        try {
-            JSONObject j = new JSONObject(t);
-            Log.i(TAG, j.toString());
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
+        */
 
         try {
             WebSocket webSocket = new WebSocketFactory().createSocket(URL_LISTENER);
